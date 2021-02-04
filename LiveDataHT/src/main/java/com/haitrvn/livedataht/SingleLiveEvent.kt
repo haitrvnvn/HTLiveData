@@ -1,4 +1,4 @@
-package com.haitrvn.htlivedata
+package com.haitrvn.livedataht
 
 import androidx.annotation.MainThread
 import androidx.annotation.Nullable

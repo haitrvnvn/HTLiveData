@@ -1,4 +1,4 @@
-package com.haitrvn.htlivedata
+package com.haitrvn.livedataht
 
 sealed class Resource<T>
 class ResourceSuccess<T>(val data: T?) : Resource<T>()

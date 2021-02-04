@@ -2,8 +2,10 @@ package com.haitrvn.htlivedata
 
 import android.os.Bundle
 import android.util.Log
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import com.haitrvn.livedataht.SingleStateLiveData
+import com.haitrvn.livedataht.observeFailed
+import com.haitrvn.livedataht.observeLoading
 
 data class User(val name: String)
 
