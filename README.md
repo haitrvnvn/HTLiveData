@@ -6,7 +6,7 @@ DM Kiên dùng đi ngon lắm
 
 ```Sample
 private val testLiveData = SingleStateLiveData<User>() //observe 1 lần
-//private val testLiveData = StateLiveData<User>() //Observe 1 nhiều lần
+//private val testLiveData = StateLiveData<User>() //Observe nhiều lần
 ```
 
 
