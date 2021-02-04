@@ -9,7 +9,6 @@ private val testLiveData = SingleStateLiveData<User>() //observe 1 lần
 //private val testLiveData = StateLiveData<User>() //Observe nhiều lần
 ```
 
-
 ```
 override fun onCreate(savedInstanceState: Bundle?) {
     super.onResume()
@@ -26,8 +25,14 @@ override fun onCreate(savedInstanceState: Bundle?) {
         Log.d("MainActivity", "onResume (line 29): $isLoading $progress")
         
     }
+    
+        testLiveData.postLoading(true, 50)
+        testLiveData.postFailed(R.string.app_name)
+        testLiveData.postSuccess(User("haitrvn"))
+  
 } 
 ```        
+
 
 add to project
 ```
